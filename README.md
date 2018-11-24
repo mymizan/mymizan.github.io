@@ -1,93 +1,78 @@
-# Jekyll Template - Mediumish by WowThemes.net
+mediator
+========
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Buy me a coffe](https://www.buymeacoffee.com/sal)
+A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme
+[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](http://blog.base68.com).
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+Screenshots
+--------
+![screenshot](/assets/images/screenshot1.jpg)
+![screenshot](/assets/images/screenshot2.jpg)
+![screenshot](/assets/images/screenshot3.jpg)
 
-### Features
+Features
+-------
+* Fully Responsive layout
+* Use header images in articles, if you want to (add tag "image" and url to the image in the front matter section of a post)
+* Minimal design
+* Featured article support
+* FontAwesome implemented for easy use of icons fonts
+* Free & Open Source Font usage
 
-- Built for Jekyll
-- Compatible with Github pages
-- Featured Posts
-- Index Pagination
-- Post Share
-- Post Categories
-- Prev/Next Link
-- Category Archives (this is not yet compatible with github pages though)
-- Jumbotron Categories
-- Integrations:
-    - Disqus Comments
-    - Google Analaytics
-    - Mailchimp Integration
-- Design Features:
-    - Bootstrap v4.x
-    - Font Awesome
-    - Masonry
-- Layouts:
-    - Default
-    - Post
-    - Page
-    - Archive
-    
-### Using Mediumish
+Getting Started
+---
+- [Fork this repository](https://github.com/dirkfabisch/mediator)
+- Clone it: `git clone https://github.com/YOUR-USER/mediator`
+- Install the requried gems ([GitHub Pages](https://github.com/github/pages-gem), [Bourbon](https://github.com/thoughtbot/bourbon) and [Jekyll](https://github.com/jekyll/jekyll), [Jemoji](https://github.com/jekyll/jemoji)): `bundle install`
+- Run the jekyll server: `bundle exec jekyll serve`
 
-- Open `_config.yml`. If your site is in root, for `baseurl`, make sure this is set to `baseurl: ''`
-Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
-- Mediumish requires 2 plugins: 
-    - `$ gem install jekyll-paginate`
-    - `$ gem install jekyll-archives`.
-- Edit the menu and footer copyrights in `default.html`
-- Start by adding your .md files in `_posts`. Mediumish already has a few as an example. 
-- YAML front matter
-    - featured post - `featured:true`
-    - exclude featured post from "All stories" loop to avoid duplicated posts - `hidden:true`
-    - post image - `image: assets/images/mypic.jpg`
-    - page comments - `comments:true`
-    - meta description (optional) - `description: "this is my meta description"`
-    
-**YAML Post Example**:
+You should have a server up and running locally at <http://localhost:4000>.
+
+Configuration
+-----
+
+The main settings happen in side of the _config.yml file:
+
+### Site
+
+Main settings for the site
+
+* **title**: name of your site
+* **description**: description of your site
+* **logo**: small logo for the site (300x * 300x)
+* **cover**: large background image on the index page
+
+* **name**: name site owner
+* **email**: mail address of the site owner
+* **author**: author name
+* **author_image**: small image of author (300x * 300px)
+* **disqus**: add a disqus forum for your post
+
+### Social
+
+The template allows to add all major social platforms to your site.
+Fill the the form for each platform. If you leave the share_* entries empty, the sharing buttons below a post are not shown.  If you leave the **url** and **desc** empty the icons are not shown on the index page, but the share icons on the article pages remains untouched (Thanks to [Phil](https://github.com/philsturgeon))
+
+* **icon**:	name of social platform (must match a name of [font-awsome](http://fortawesome.github.io/Font-Awesome/) icon set )
+* **url**:	url of your account
+* **desc**: slogan of the platform
+* **share_url**: share url
+* **share_title**: first part of url for the title
+* **share_link**: second part of the share url for the link to the post
+
+The Liquid template engine will magical combine the different parts to a share url.
 
 ```
----
-layout: post
-title:  "We all wait for summer"
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-featured: true
----
-```
+http://twitter.com/share?text=post_title&amp;url=post_url
+````
 
-`comments: false` - disable comments in posts
+See [_config.yml](https://github.com/dirkfabisch/mediator/blob/master/_config.yml) for more examples.
 
-`image: "https://www.myexternal.com/image.jpg"`  - set external featured image
-    
-**YAML Page Example**:
+Licensing
+---------
 
-```
----
-layout: page
-title: Mediumish Template for Jekyll
-comments: true
----
-```
+[MIT](https://github.com/dirkfabisch/mediator/blob/master/LICENCE) with no added caveats, so feel free to use this on your site without linking back to me or using a disclaimer or anything silly like that.
 
-### Copyright
-
-Copyright (C) 2018 WowThemes.net.
-
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
-
-<a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-### Contribute
-
-- [Clone the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-- Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-- Open a pull request on GitHub and describe the feature or fix.
-
-Thank you so much for your contribution!
-
------------------
-
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip)
+Contact
+-------
+I'd love to hear from you at [@dirkfabisch](https://twitter.com/dirkfabisch). Feel free to open issues if you run into trouble or have suggestions. Pull Requests always welcome.
