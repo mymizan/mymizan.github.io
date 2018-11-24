@@ -6,8 +6,8 @@
 </description>
     <link>https://yakub.xyz/</link>
     <atom:link href="https://yakub.xyz/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 24 Nov 2018 17:53:19 +0600</pubDate>
-    <lastBuildDate>Sat, 24 Nov 2018 17:53:19 +0600</lastBuildDate>
+    <pubDate>Sat, 24 Nov 2018 17:56:49 +0600</pubDate>
+    <lastBuildDate>Sat, 24 Nov 2018 17:56:49 +0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -38,8 +38,6 @@
         <pubDate>Fri, 29 Aug 2014 14:34:25 +0000</pubDate>
         <link>https://yakub.xyz/jekyll/update/2014/08/29/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">https://yakub.xyz/jekyll/update/2014/08/29/welcome-to-jekyll.html</guid>
-        
-        <category>featured</category>
         
         
         <category>jekyll</category>
