@@ -4,8 +4,7 @@ layout: default
 
 ## Index
 
-
-- [Building a Simple WordPress Options Page](/building-a-simple-wordPress-options-page)
+- [Building a Simple WordPress Options Page](/building-a-simple-wordpress-options-page)
 - [Hide Price Data From WooCommerce Email](/hide-price-data-from-woocommerce-email)
 - [Redirect All or Specific Pages to Homepage](/redirect-all-or-specific-pages-to-homepage)
 - [Remove Shipping Row From WooCommerce Emails](/remove-shipping-from-woocommerce-emails)
