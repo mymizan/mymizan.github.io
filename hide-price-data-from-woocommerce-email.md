@@ -3,7 +3,7 @@ layout: default
 title: "Hide Price Data From WooCommerce Email"
 date: "2019-05-25"
 categories: 
-  - "life"
+  - "wordpress"
 ---
 
 In this tutorial, I will show you how to hide price data from WooCommerce emails.

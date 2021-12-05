@@ -3,7 +3,7 @@ layout: default
 title: "Building a Simple WordPress Options Page"
 date: "2019-06-01"
 categories: 
-  - "life"
+  - "wordpress"
 ---
 
 Options table (prefix\_options) is WordPress's way of providing a key-value store for plugin authors. It's a good place to save any key value data such as settings used by your plugin.

@@ -3,7 +3,7 @@ layout: default
 title: "Remove Shipping Row From WooCommerce Emails"
 date: "2019-05-24"
 categories: 
-  - "life"
+  - "wordpress"
 ---
 
 If you have free shipping for all your products in your store and you have already shown that to your customers, you may want to remove the Free Shipping row from the email sent to customers after purchase.

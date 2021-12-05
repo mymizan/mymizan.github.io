@@ -3,7 +3,7 @@ layout: default
 title: "Show Category IDs"
 date: "2019-08-27"
 categories: 
-  - "life"
+  - "wordpress"
 ---
 
 By default when you view the list of post categories or WooCommerce product categories, WordPress doesn't show the IDs. But sometimes, you may need those IDs, say when you want to put them in a shortcode.

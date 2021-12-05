@@ -3,7 +3,7 @@ layout: default
 title: "The right way to check if a plugin is active"
 date: "2020-01-31"
 categories: 
-  - "life"
+  - "wordpress"
 ---
 
 There are many different ways to check if a plugin is active on your WordPress website. However, there are pros and cons to each approach.

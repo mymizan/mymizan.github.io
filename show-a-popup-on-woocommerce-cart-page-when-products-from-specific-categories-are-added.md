@@ -3,7 +3,7 @@ layout: default
 title: "Show a Popup on WooCommerce Cart Page When Products from Specific Categories are Added"
 date: "2019-05-29"
 categories: 
-  - "life"
+  - "wordpress"
 ---
 
 In this tutorial, I will show you how to show a nice popup when user cart contains products from specific categories.

@@ -3,7 +3,7 @@ layout: default
 title: "WordPress Data Validation, Sanitization and Escaping"
 date: "2019-06-29"
 categories: 
-  - "life"
+  - "wordpress"
 ---
 
 Coding defensively is very important because your users are free to enter whatever data they want, and some of them will do so with malicious intent. As a programmer, you must ensure that you are validating, and sanitizing user input when saving into the database and also properly escaping when displaying the data back to the user, even if the data is coming from the database and assumed safe.

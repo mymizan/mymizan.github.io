@@ -3,7 +3,7 @@ layout: default
 title: "Redirect All or Specific Pages to Homepage"
 date: "2019-08-23"
 categories: 
-  - "life"
+  - "wordpress"
 ---
 
 WordPress has many complex plugins to handle redirection, such as [Redirection](https://wordpress.org/plugins/redirection/) by [John Godley](https://johngodley.com/).

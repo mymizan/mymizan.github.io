@@ -3,7 +3,7 @@ layout: default
 title: "Review of the Imagify and My Suggestions"
 date: "2019-05-19"
 categories: 
-  - "life"
+  - "wordpress"
 ---
 
 Today, while I was applying for a job post at [WP Media](https://wp-media.me), I wanted to try their plugins first, to learn more about the company.
