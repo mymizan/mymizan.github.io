@@ -20,7 +20,7 @@ Setting up Imagify was a piece of cake. I installed it from the plugin repositor
 
 Upon activation, I was shown a big banner at the top of the admin dashboard with options to set up the plugin.
 
-![](images/imagify-setup-screen-1024x175.png)
+![](images/imagify-setup-screen.png)
 
 The design of the banner separates the plugin from the rest of the pack and clearly gives you an idea of what work went behind making this one. I like the minimalism and the cleanliness of the design.
 

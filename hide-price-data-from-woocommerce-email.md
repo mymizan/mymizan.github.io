@@ -12,11 +12,11 @@ Let's just take a quick look at how the email will look like before and after th
 
 ## Before the removal of price data
 
-![](assets/img/before-price-data-removal-1014x1024.png)
+![](assets/img/before-price-data-removal.png)
 
 ## After the Removal of Price Data
 
-![](assets/img/after-price-data-removal-1024x808.png)
+![](assets/img/after-price-data-removal.png)
 
 ## Method 1: Remove Price Data With CSS
 

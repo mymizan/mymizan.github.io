@@ -98,7 +98,7 @@ Well, most things in WordPress are achieved via hooks. If you call the function 
 
 That's it! We are ready to see some result of our hard work! Save the file and then reload WordPress. Now click on YM Options under settings. You should see a similar page like below if you have done the whole thing right.
 
-![](assets/img/ym-options-demo-plugin-demo-page-1024x579.png)
+![](assets/img/ym-options-demo-plugin-demo-page.png)
 
 Great if you have done everything right and see the page above.
 
@@ -149,7 +149,7 @@ The HTML follows certain structure to match the design of WordPress option pages
 
 Save your changes and go to the options page. You should see a page like below.
 
-![](assets/img/ym-options-completed-demo-plugin-1024x578.png)
+![](assets/img/ym-options-completed-demo-plugin.png)
 
 ## Completed Code
 
